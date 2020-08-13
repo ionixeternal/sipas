@@ -1,0 +1,2 @@
+# sipas
+Aplikasi SIPAS merupakan kependekan dari Sistem Informasi Pengelolaan Arsip Surat yang bertujuan untuk mengelola Kearsipan Surat atau Dokumen lainnya. Fitur aplikasi ini cukup lengkap hingga memuat Notifikasi, Disposisi dan Upload File lebih dari satu, dengan tampilan GUI yang Modern serta kemudahaan dalam penggunaannya, aplikasi ini sangat cocok untuk Perusahaan ataupun Pribadi (Perseorangan).
