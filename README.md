@@ -117,8 +117,9 @@ Mengindeks yaitu memberi kode atau kategori pada surat, biasanya indeks diambil 
 - Atur tanggal awal dan tanggal akhir lalu klik tampilkan, setelah muncul anda bisa mengklik tombol print
 
 ## Demo Aplikasi
-Link Demo bisa anda buka di [Ionix Eternal Studio Official Web](http://sipas.ionixeternal.co.id/)
+Link Demo bisa anda buka di [SIPAS - Ionix Eternal Studio (Official Web)](http://sipas.ionixeternal.co.id/)
 
 ## Changelog
-- SIPAS [v.1.1](https://github.com/ionixeternal/sipas/blob/master/CHANGELOG.md)
+- SIPAS [v.1.2](https://github.com/ionixeternal/sipas/blob/master/CHANGELOG.md)
+- SIPAS v1.1
 - SIPAS v1.0
