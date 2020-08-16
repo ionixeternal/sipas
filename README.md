@@ -12,14 +12,14 @@ _This needs **PHP 7.x, MySQL**_
 Anda mungkin membutuhkan Webserver seperti `XAMPP, AMPPS dan sejenisnya`. Buka aplikasi melalu Firefox, Chrome, Edge, Safari dan lainnya.
 
 #### Lokal Webserver
-- Buka file `app.zip` dengan WinRAR atau ZIP
+- Buka file `sipas [app version].zip` dengan WinRAR atau ZIP
 - Letakan folder `SIPAS dan .htacces` ke direktori htdocs atau www (Tergantung folder root Webserver)
 - Buka `localhost/phpmyadmin` kemudian buat database dengan nama db_sipas dengan format char `utf8mb4_general_ci`
 - Pilih IMPORT kemudian browse Databasenya di direktori` WEBSERVER ROOT FOLDER PATH.sipas/database/db_sipas.sql`, klik Go
 - Buka url localhost / IP LAN Server untuk login kedalam Aplikasi
 
 #### Hosting
-- Buka file `app.zip` dengan WinRAR atau ZIP kemudan masuk ke folder sipas/database. Ekstrak `db_sipas.sql` keluar dari ZIP
+- Buka file `sipas [app version].zip` dengan WinRAR atau ZIP kemudan masuk ke folder sipas/database. Ekstrak `db_sipas.sql` keluar dari ZIP
 - Login CPanel lalu buka Database dan buat Database baru (Nama disesuaikan saja)
 - Pilih Usernya dan `grant all access` ke Database yang baru dibuat
 - Buka File Manajer kemudian masuk ke folder public_html (untuk base domain) atau ke subdomain (untuk sub domain)
