@@ -6,7 +6,7 @@ _This needs **PHP 7.x, MySQL**_
 
 ## Changelog Updates
 
-#### v1.2 (STABLE)
+#### v1.2 (Release Candidate)
 - Fix Bugs and Errors from `v1.1`
 - Fix `Graphic Chart` functional and add new `Donut Chart`
 - Fix empty string in multiple modules
@@ -14,7 +14,7 @@ _This needs **PHP 7.x, MySQL**_
 - Changes coding structure in the controller, model, view and javascript
 - Update Configs
 
-#### v1.1 (BETA)
+#### v1.1 (Beta)
 - Fix Bugs and Errors from `v1.0`
 - Fix `Graphic Chart` and `Notification`
 - Fix `URI Routing` on Hosting/Clouds/Linux Server
@@ -22,5 +22,5 @@ _This needs **PHP 7.x, MySQL**_
 - Update Access Rights have become more stringent
 - Update Controller and Model
 
-#### v1.0 (BETA)
+#### v1.0 (Alpha)
 - Application Release
