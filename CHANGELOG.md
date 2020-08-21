@@ -6,6 +6,16 @@ _This needs **PHP 7.x, MySQL**_
 
 ## Changelog Updates
 
+#### v1.3 (Stable)
+- Fix Bugs and Errors from `v1.2`
+- Fix Form Validation and JQuery
+- Fix Delete files unused
+- Fix Controller, Model, and Views
+- Changes and Remake Inbox Detail Layout (Especially in comments column)
+- Changes User Profile Layout
+- Coding Enhancements
+- Update Configs (Problem in Firefox)
+
 #### v1.2 (Release Candidate)
 - Fix Bugs and Errors from `v1.1`
 - Fix `Graphic Chart` functional and add new `Donut Chart`
