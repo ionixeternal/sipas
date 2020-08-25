@@ -120,6 +120,7 @@ Mengindeks yaitu memberi kode atau kategori pada surat, biasanya indeks diambil 
 Link Demo bisa anda buka di [SIPAS - Ionix Eternal Studio (Official Web)](http://sipas.ionixeternal.co.id/)
 
 ## Changelog
-- SIPAS [v1.2](https://github.com/ionixeternal/sipas/blob/master/CHANGELOG.md) - (STABLE)
+- SIPAS [v1.3] (https://github.com/ionixeternal/sipas/blob/master/CHANGELOG.md) - (STABLE)
+- SIPAS v1.2 - (Release Candidate)
 - SIPAS v1.1 - (BETA)
 - SIPAS v1.0 - (BETA)
