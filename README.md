@@ -56,5 +56,5 @@ Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang tela
 [7]: https://wa.me/message/YA32H76WDRDTC1
 [8]: https://www.instagram.com/ubenwisnu/
 [9]: https://www.instagram.com/firhanadnan/
-[10]: https://github.com/ionixeternal/sipas/blob/master/model/premium/readme.md
-[11]: https://github.com/ionixeternal/sipas/blob/master/model/enterprise/readme.md
+[10]: https://github.com/ionixeternal/sipas/blob/master/model/premium/README.md
+[11]: https://github.com/ionixeternal/sipas/blob/master/model/enterprise/README.md
