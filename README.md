@@ -1,3 +1,7 @@
+<img src="https://github.com/ionixeternal/sipas/blob/master/docs/image/thumbnails.jpg" class="img-thumbnail" alt="Thumbnails">
+
+<h1 align="center">Welcome to SIPAS Application</h1>
+
 # Introducing
 <div class="border-top"><br></div>
 
@@ -63,5 +67,15 @@ Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang tela
 #### Trademark
 
 <p align="center">
-  <img src="user_guide/docs/images/watermark.png" class="img-thumbnail" alt="Watermark" style="background-color: transparent; border: none" width="80%">
+  <img src="https://github.com/ionixeternal/sipas/blob/master/docs/image/watermark.png" class="img-thumbnail" alt="Watermark" style="background-color: transparent; border: none" width="80%">
 </p>
+
+[1]: https://www.codeigniter.com/
+[2]: https://www.getbootstrap.com/
+[3]: https://www.jquery.com/
+[4]: https://www.apachefriends.org/
+[5]: https://www.apachefriends.org/
+[6]: https://www.win-rar.com/
+[7]: https://wa.me/message/YA32H76WDRDTC1
+[8]: https://www.instagram.com/ubenwisnu/
+[9]: https://www.instagram.com/firhanadnan/
