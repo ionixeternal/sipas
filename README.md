@@ -9,6 +9,11 @@
 # Introducing
 Aplikasi SIPAS merupakan kependekan dari Sistem Informasi Pengelolaan Arsip Surat yang bertujuan untuk mengelola Kearsipan Surat atau Dokumen lainnya. Aplikasi SIPAS dibuat menggunakan Bahasa pemograman PHP dengan [Framework CodeIgniter][1] dan menggunakan database MySQL. Selain itu SIPAS juga mempermudah dalam distribusi surat masuk ke pegawai dari Instansi lain, atau yang biasa yang disebut disposisi surat. Aplikasi ini cocok digunakan untuk alat bantu administrasi arsip surat menyurat pada instansi atau perusahaan. Fitur yang ada dalam aplikasi ini cukup lengkap hingga memuat Notifikasi, Disposisi dan Upload File lebih dari satu, dengan tampilan GUI yang Modern serta kemudahaan dalam penggunaannya, aplikasi ini sangat cocok untuk Perusahaan ataupun Pribadi (Perseorangan).
 
+# Overviews
+Berisikan cara penggunaan dan alur pada aplikasi ini, silahkan pilih versi yang akan anda gunakan
+- [Premium][10]
+- [Enterprise][11]
+
 # Application
 #### Components
 - [Framework CodeIgniter][1] version 3.x
@@ -51,3 +56,5 @@ Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang tela
 [7]: https://wa.me/message/YA32H76WDRDTC1
 [8]: https://www.instagram.com/ubenwisnu/
 [9]: https://www.instagram.com/firhanadnan/
+[10]: https://github.com/ionixeternal/sipas/blob/master/model/premium/readme.md
+[11]: https://github.com/ionixeternal/sipas/blob/master/model/enterprise/readme.md

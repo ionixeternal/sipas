@@ -1,18 +1,31 @@
-## Aplikasi SIPAS - Sistem Infomasi Pengelolaan Arsip Surat
-
-Aplikasi SIPAS merupakan kependekan dari Sistem Informasi Pengelolaan Arsip Surat yang bertujuan untuk mengelola Kearsipan Surat atau Dokumen lainnya. Fitur aplikasi ini cukup lengkap hingga memuat Notifikasi, Disposisi dan Upload File lebih dari satu, dengan tampilan GUI yang Modern serta kemudahaan dalam penggunaannya, aplikasi ini sangat cocok untuk Perusahaan ataupun Pribadi (Perseorangan).
-
-_This needs **PHP 7.x, MySQL**_
-
-## Changelog Updates
+# Changelog
+<div class="border-top"><br></div>
 
 #### v1.1
-- Fix Bugs and Errors from `v1.0`
-- Fix `Graphic Chart` and `Notification`
-- Fix `URI Routing` on Hosting/Clouds/Linux Server
-- Changes coding structure in the javascript
-- Update Access Rights have become more stringent
-- Update Controller and Model
+- Adding Agenda Number (Auto Generate)
+- Adding Bootstrap Tooltips
+- Adding JQuery Alert Message Templates
+- Adding Offline User Guide Menu with Markdown Files
+- Adding Password Strength Rules and Reset Password
+- Adding Print Registration after Adding Data
+- Adding Codeigniter Security for Any Routing & Method
+- Adding Users Select Rules (Refers to Work Units)
+- Fix Bugs and Errors from `v1.1`
+- Fix Bootstrap Select Picker
+- Fix & Changes Database (Auto Increment support to Billion Data & Foreign Key)
+- Changes Coding Style Builder with Ionix Helper (Auto CRUD)
+- Changes Follow-Up Notifications Layout into Right Bar
+- Changes Rules Secret Mail/Document
+- Changes Folder Structure
+- Changes Mail/Document Forward with Specific Users
+- Changes Auth Rules
+- Changes Report Layout
+- Changes Confirm Buttons to Sweet Alert 2
+- Changes User inactive background to Soft-Red
+- Changes Report Menu Rules
+- Mail/Document Forward Filter to Specific User in Disposition Menu
+- New Graphic User Interface (GUI)
+- Remove Unused Models
 
 #### v1.0
 - Application Release
