@@ -27,7 +27,7 @@ Unduh dan ekstrak file [zip][6] yang Anda terima. Letakan di folder `root` webse
 Untuk semua masalah termasuk permintaan penambahan fitur, silahkan [hubungi kami][7].
 
 #### Changes
-Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang telah dilakukan.
+Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang telah dilakukan oleh kami.
 
 #### Credits
 - [Uben Wisnu][8]
