@@ -1,126 +1,67 @@
-<img alt="Screenshoot" src="https://github.com/ionixeternal/sipas/blob/master/docs/image/thumbnails.jpg">
+# Introducing
+<div class="border-top"><br></div>
 
-## Aplikasi SIPAS - Sistem Infomasi Pengelolaan Arsip Surat
+Aplikasi SIPAS merupakan kependekan dari Sistem Informasi Pengelolaan Arsip Surat yang bertujuan untuk mengelola Kearsipan Surat atau Dokumen lainnya. Aplikasi SIPAS dibuat menggunakan Bahasa pemograman PHP dengan [Framework CodeIgniter][1] dan menggunakan database MySQL. Selain itu SIPAS juga mempermudah dalam distribusi surat masuk ke pegawai dari Instansi lain, atau yang biasa yang disebut disposisi surat. Aplikasi ini cocok digunakan untuk alat bantu administrasi arsip surat menyurat pada instansi atau perusahaan. Fitur yang ada dalam aplikasi ini cukup lengkap hingga memuat Notifikasi, Disposisi dan Upload File lebih dari satu, dengan tampilan GUI yang Modern serta kemudahaan dalam penggunaannya, aplikasi ini sangat cocok untuk Perusahaan ataupun Pribadi (Perseorangan).
 
-Aplikasi SIPAS merupakan kependekan dari Sistem Informasi Pengelolaan Arsip Surat yang bertujuan untuk mengelola Kearsipan Surat atau Dokumen lainnya. Fitur aplikasi ini cukup lengkap hingga memuat Notifikasi, Disposisi dan Upload File lebih dari satu, dengan tampilan GUI yang Modern serta kemudahaan dalam penggunaannya, aplikasi ini sangat cocok untuk Perusahaan ataupun Pribadi (Perseorangan).
+# Features
+<div class="border-top"><br></div>
 
-_This needs **PHP 7.x, MySQL**_
+Kami tidak hanya fokus kepada fungsi kode yang digunakan sebagaimana banyaknya aplikasi lain diluar sana yang membuat dengan konsep minimalis, tetapi kami memperhatikan desain dan tata letak guna memberikan kenyamanan terhadap pengguna dalam menggunakan Aplikasi ini. Fitur-fitur menarik telah kami terapkan dengan kode yang telah kami kembangkan sendiri dan juga Helper AutoCRUD memudahkan Anda dalam membuat koding tanpa harus menulis ulang koding yang sama. Berikut adalah fitur yang kami terapkan dalam Aplikasi.
 
-## Instalasi Lokal
+- Ajax Processing without Reload Page
+- Authentication with Dynamic Menu from Database
+- Auto CRUD with Ionix Helper (Clean Code)
+- Codeigniter Security
+- CRUD with Modals Bootstrap and Sweet Alert 2
+- Custom Error Pages
+- Custom Styling Datatables with Serverside Processing
+- Custom Uploads & Downloads Routing (More than one files upload)
+- Database Backup
+- Database Design (Support with Billions Data)
+- Dynamic Access Rights to Display the Menu
+- Easy Configure Application & Company Setting
+- Generate Auto Number
+- Graphic Bar with Apex Chart & Realtime Notifications without Reload Page
+- JQuery Form Validation with Bootstrap Validation
+- JQuery Code Styling (Clean Code)
+- Mail/Document Disposition
+- Mail Comments like a Chat
+- Offline User Guide with Markdown File
+- Password Validation with Strength Meter
+- Print a Mail Receipt
+- Report Templating with Bootstrap
 
-#### Dependensi
-Anda mungkin membutuhkan Webserver seperti `XAMPP, AMPPS dan sejenisnya`. Buka aplikasi melalu Firefox, Chrome, Edge, Safari dan lainnya.
+# Application
+<div class="border-top"><br></div>
 
-#### Lokal Webserver
-- Buka file `sipas [app version].zip` dengan WinRAR atau ZIP
-- Letakan folder `SIPAS dan .htacces` ke direktori htdocs atau www (Tergantung folder root Webserver)
-- Buka `localhost/phpmyadmin` kemudian buat database dengan nama db_sipas dengan format char `utf8mb4_general_ci`
-- Pilih IMPORT kemudian browse Databasenya di direktori` WEBSERVER ROOT FOLDER PATH.sipas/database/db_sipas.sql`, klik Go
-- Buka url localhost / IP LAN Server untuk login kedalam Aplikasi
+#### Components
+- [Framework CodeIgniter][1] version 3.x
+- [Bootstrap][2] version 3x custom
+- [JQuery][3] version 2.x & 3.x
 
-#### Hosting
-- Buka file `sipas [app version].zip` dengan WinRAR atau ZIP kemudan masuk ke folder sipas/database. Ekstrak `db_sipas.sql` keluar dari ZIP
-- Login CPanel lalu buka Database dan buat Database baru (Nama disesuaikan saja)
-- Pilih Usernya dan `grant all access` ke Database yang baru dibuat
-- Buka File Manajer kemudian masuk ke folder public_html (untuk base domain) atau ke subdomain (untuk sub domain)
-- Pilih Upload lalu pilih `app.zip` tunggu hingga selesai mengupload
-- Kembali kefolder tadi kemudian klik kanan `app.zip` dan ekstrak ke folder tersebut
-- Setelah terekstrak masuk ke folder `sipas/application/config/database.php`
-```
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+#### Requirements
+- [PHP][4] version 7.x or newer
+- [MySQL][5] version 5.x or newer
+- Web Browser latest version
 
-$active_group = 'default';
-$query_builder = TRUE;
+#### Downloads
+Unduh dan ekstrak file [zip][6] yang Anda terima. Letakan di folder `root` webserver <kbd>Localhost</kbd> Anda.
 
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'db_sipas',
-	'dbdriver' => 'mysqli',
-	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
-```
-- Sesuaikan domain, nama database dan usernya lalu Simpan
-- Buka url Base Domain / Sub Domain untuk login kedalam Aplikasi
+#### Issues
+Untuk semua masalah termasuk permintaan penambahan fitur, silahkan [hubungi kami][7].
 
-## Fitur Aplikasi
+#### Changes
+Lihat pada tab <kbd>Changelog</kbd> untuk mengetahui seluruh perubahan yang telah dilakukan.
 
-#### Fitur
-    - Dashboard
-    - Kotak Masuk
-    - Indeks Surat dan Klasifikasi Jabatan
-    - Registrasi Surat Masuk dan Keluar
-    - Disposisi Surat Masuk
-    - Laporan Surat Masuk dan Keluar
-    - Manajemen Hak Akses dan Pengguna
-    - Pengaturan Aplikasi dan Backup Database
+#### Credits
+- [Uben Wisnu][8]
+- [Firhan Adnan][9]
 
-#### Fitur Unggulan
-    - Realtime Notifikasi, Uploads dan Komentar (Layaknya sebuah Chatting)
-    - Penggungahan Berkas lebih dari satu pada setiap Surat (Tansaksi)
-    - Batasan Hak Akses dan Menu Dinamis [Tidak memiliki Akses = DENIED]
-    - JQuery Validation
-    - CRUD AJAX Serverside No Reload Page
-    - Custom Bootstrap (Boostrap 3.x digabung dengan beberapa modul dari Bootstrap 4.x)
-    - Custom Datatables (Tampilan Datatable dirubah menjadi halus dan responsif)
+#### Author
+- [Uben Wisnu][8]
 
-## Konfigurasi Aplikasi
-- Login menggunakan akun `admin`
-- Pilih menu Instansi / Badan usaha
-```
-Pada halaman Instansi / Badan usaha kami menyediakan pengaturan gambar yang akan digunakan dalam aplikasi beserta penjelasan penempatan gambar-gambar tersebut
-```
-- Pilih menu `Klasifikasi` dan tambahkan klasifikasi baru berdasarkan jabatan pada perusahaan
-```
-Klasifikasi ini merupakan pengelompokan jabatan, devisi atau bagian yang ada dalam perusahaan yang akan menjadi salah satu master data pada aplikasi
-```
-- Pilih menu `Kelola Hak Akses dan Pengguna`
-```
-Kelola hak akses dinamis dan pengguna aplikasi pada halaman ini, kami telah menyediakan 4 hak akses, yaitu pengguna, operator, pimpinan dan admin. anda juga dapat membuat pengguna baru
-```
-- Pilih menu `Indeks`
-```
-Mengindeks yaitu memberi kode atau kategori pada surat, biasanya indeks diambil berdasarkan perihal surat, hal ini berguna dalam pengelompokan surat untuk kepentingan arsip
-```
+#### Trademark
 
-## Alur Aplikasi
-
-#### Surat Masuk
-- Login menggunakan akun ber hak akses `Operator` atau `Administrator` kemudian pilih menu Registrasi `Surat Masuk` dan buat data baru
-- Pada bagian `Aksi` pilih `Lihat Rincian` lalu Upload surat yang sudah di scan/gambar/word dan berikan komentar (Opsional)
-- Kembali dan pada bagian `Aksi` lalu pilih `Teruskan`
-- Login menggunakan akun ber hak akses `pimpinan` kemudian pilih menu Disposisi `Surat Masuk` dan ke bagian `Aksi` pilih `Lihat Rincian` untuk melihat deskripsi Surat, File dan menambahkan Komentar
-- Kembali dan pada bagian `Aksi` lalu pilih `Disposisi`, setelah teredirect silakan klik `Tambah Disposisi` dan masukkan `Pengguna` yang akan menerima surat tersebut
-- Login menggunakan akun ber hak akses `Pengguna` kemudian pilih menu `Kotak Masuk` klik pada surat yang belum terbaca untuk melihat deskripsi surat, File dan menambahkan komentar
-
-#### Surat Keluar
-- Login menggunakan akun ber hak akses `Operator` atau `Administrator` kemudian pilih menu Registrasi `Surat Keluar` dan buat data baru
-- Pada bagian `Aksi` pilih `Lihat Rincian` lalu Upload surat yang sudah di scan/gambar/word dan berikan komentar (Opsional)
-
-#### Mencetak Laporan
-- Login menggunakan akun ber hak akses `Administrator` atau `Pimpinan` kemudian pilih menu Laporan `Surat Masuk` atau `Surat Keluar`
-- Atur tanggal awal dan tanggal akhir lalu klik tampilkan, setelah muncul anda bisa mengklik tombol print
-
-## Demo Aplikasi
-Link Demo bisa anda buka di [SIPAS - Ionix Eternal Studio (Official Web)](http://sipas.ionixeternal.co.id/)
-
-## Changelog
-- SIPAS [v1.3](https://github.com/ionixeternal/sipas/blob/master/CHANGELOG.md) - (STABLE)
-- SIPAS v1.2 - (Release Candidate)
-- SIPAS v1.1 - (BETA)
-- SIPAS v1.0 - (BETA)
+<p align="center">
+  <img src="user_guide/docs/images/watermark.png" class="img-thumbnail" alt="Watermark" style="background-color: transparent; border: none" width="80%">
+</p>
