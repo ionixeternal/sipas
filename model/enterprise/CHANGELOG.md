@@ -1,6 +1,16 @@
 # Changelog
 <div class="border-top"><br></div>
 
+#### v1.2
+- Adding Moment.php for Datetime
+- Adding send Documents by Email
+- Fix Ionix Helper (Auto CRUD)
+- Fix Bugs and Errors from `v1.1`
+- Fix Filter Rules
+- Changes App Layouts
+- Changes Code Structure
+- Restabilizing Performance
+
 #### v1.1
 - Adding Agenda Number (Auto Generate)
 - Adding Bootstrap Tooltips
