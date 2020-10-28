@@ -1,6 +1,7 @@
 # Overviews
 
 #### Access Rights
+
 Hak Akses (Access Rights) adalah izin atau hak istimewa yang diberikan kepada pengguna di dalam aplikasi, sebagaimana ditetapkan oleh aturan yang dibuat oleh pemilik data dan sesuai kebijakan keamanan informasi di dalam aplikasi. Berikut adalah Hak Akses yang telah ditetapkan
 
 - `Pengguna` (Hanya dapat melihat Beranda dan Kotak Masuk)
@@ -10,6 +11,7 @@ Hak Akses (Access Rights) adalah izin atau hak istimewa yang diberikan kepada pe
 - `Administrator` (Akses penuh terhadap Aplikasi)
 
 # Distribusi Surat Masuk
+<div class="border-top"><br></div>
 
 #### Registrasi
 - Scan/Foto terlebih dahulu Surat/Dokumen yang telah diterima, simpan file tersebut dengan format <kbd>pdf/docx/jpeg/jpg/png</kbd>
@@ -35,4 +37,4 @@ Hak Akses (Access Rights) adalah izin atau hak istimewa yang diberikan kepada pe
 #### Registrasi
 - Scan/Foto terlebih dahulu Surat/Dokumen yang telah dikirim, simpan file tersebut dengan format <kbd>pdf/docx/jpeg/jpg/png</kbd>
 - Gunakan Akun berhak akses `Operator` kemudian pilih menu <kbd>Registrasi Surat Keluar</kbd> dan buat data baru.
-- Setelah itu masuk ke <kbd>Rincian Surat</kbd> dan unggah Surat/Dokumen tadi. Dalam transaksi ini, sistem mendukung pengunggahan lebih dari satu file, Anda juga dapat memberikan Komentar jika diperlukan di dalam `Comment Box`
+- Setelah itu, masuk ke <kbd>Rincian Surat</kbd> dan unggah Surat/Dokumen tadi. Dalam transaksi ini, sistem mendukung pengunggahan lebih dari satu file, Anda juga dapat memberikan Komentar jika diperlukan di dalam `Comment Box`, Anda juga dapat mengirimkan melalui `Email Perusahaan` bila Surat/Dokumen tersebut dikirimkan melalui `Email`
