@@ -19,7 +19,7 @@
 - Adding Print Registration after Adding Data
 - Adding Codeigniter Security for Any Routing & Method
 - Adding Users Select Rules (Refers to Work Units)
-- Fix Bugs and Errors from `v1.1`
+- Fix Bugs and Errors from `v1.0`
 - Fix Bootstrap Select Picker
 - Fix & Changes Database (Auto Increment support to Billion Data & Foreign Key)
 - Changes Coding Style Builder with Ionix Helper (Auto CRUD)
