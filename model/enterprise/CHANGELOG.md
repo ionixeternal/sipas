@@ -1,5 +1,4 @@
 # Changelog
-<div class="border-top"><br></div>
 
 #### v1.2
 - Adding Moment.php for Datetime
